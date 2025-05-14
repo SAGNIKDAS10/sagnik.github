@@ -8,3 +8,14 @@ body {
 h1 {
   color: #333;
 }
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  padding-top: 80px;
+}
+
+h1 {
+  color: #00e676;
+}

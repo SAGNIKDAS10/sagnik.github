@@ -4,26 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sabyasachi Das - Advocate</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Header Section -->
     <header>
-        <h1>Sabyasachi Das - Advocate</h1>
+        <div class="container">
+            <div class="logo">
+                <h1>Sabyasachi Das</h1>
+                <p>Advocate</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section class="resume">
-        <h2>Resume</h2>
-        <embed src="resume.pdf" type="application/pdf" width="100%" height="600px">
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Welcome to the Official Website of</h2>
+            <h1>Sabyasachi Das</h1>
+            <p>Your trusted legal expert</p>
+        </div>
     </section>
 
-    <section class="experience">
-        <h2>Work Experience</h2>
-        <ul>
-            <li>Law Firm A - Position (Date - Date)</li>
-            <li>Law Firm B - Position (Date - Date)</li>
-            <!-- Add more experiences as necessary -->
-        </ul>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am an experienced advocate with expertise in various legal fields, including corporate law, criminal law, and family law. With years of experience in the industry, I am committed to providing my clients with reliable and expert legal services.</p>
+        </div>
     </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume">
+        <div class="container">
+            <h2>Resume</h2>
+            <embed src="resume.pdf" type="application/pdf" width="100%" height="600px">
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2>Work Experience</h2>
+            <ul>
+                <li><strong>Law Firm A</strong> - Position (Date - Date)</li>
+                <li><strong>Law Firm B</strong> - Position (Date - Date)</li>
+                <li><strong>Law Firm C</strong> - Position (Date - Date)</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>For legal consultations or inquiries, feel free to get in touch!</p>
+            <form action="#" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Sabyasachi Das. All Rights Reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
+
 
